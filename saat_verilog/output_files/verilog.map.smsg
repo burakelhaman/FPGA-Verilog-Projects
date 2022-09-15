@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at verilog.v(8): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/18.1/PROJECTS/saat_verilog/verilog.v Line: 8
+Warning (10268): Verilog HDL information at verilog.v(85): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/18.1/PROJECTS/saat_verilog/verilog.v Line: 85
