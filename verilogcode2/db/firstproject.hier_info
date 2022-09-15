@@ -1,0 +1,10 @@
+|firstproject
+A[0] => Decoder0.IN2
+A[1] => Decoder0.IN1
+A[2] => Decoder0.IN0
+B[0] << WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+B[1] << WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+B[2] << WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+B[3] << WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
