@@ -1,0 +1,74 @@
+module olcme(diskkonumgiris,konumcikis);
+
+input [3:0] diskkonumgiris;
+
+output [3:0] konumcikis;
+
+reg [3:0] konumcikis=0;
+
+always@(diskkonumgiris) begin
+
+case (diskkonumgiris)
+
+4'hF: konumcikis = 4'b0000;
+
+4'hE: konumcikis = 4'b0001;
+
+4'hC: konumcikis = 4'b0010;
+
+4'hD: konumcikis = 4'b0011;
+
+4'h9: konumcikis = 4'b0100;
+
+4'h8: konumcikis = 4'b0101;
+
+4'hA: konumcikis = 4'b0110;
+
+4'hB: konumcikis = 4'b0111;
+
+4'h3: konumcikis = 4'b1000;
+
+4'h2: konumcikis = 4'b1001;
+
+4'h0: konumcikis = 4'b1010;
+
+4'h1: konumcikis = 4'b1011;
+
+4'h5: konumcikis = 4'b1100;
+
+4'h4: konumcikis = 4'b1101;
+
+4'h6: konumcikis = 4'b1110;
+
+4'h7: konumcikis = 4'b1111;
+
+default: konumcikis=0;
+
+endcase
+
+end
+
+endmodule
+
+
+Pýn ler
+
+NET "konumcikis[3]" LOC = "P6" ; # Bank = 2, Signal name = LD3
+
+NET "konumcikis[2]" LOC = "P7" ; # Bank = 3, Signal name = LD2
+
+NET "konumcikis[1]" LOC = "M11" ; # Bank = 2, Signal name = LD1
+
+NET "konumcikis[0]" LOC = "M5" ;  # Bank = 2, Signal name = LD0
+
+ 
+
+NET "diskkonumgiris[3]" LOC = "C6";  # Bank = 3, Signal name = IN4
+
+NET "diskkonumgiris[2]" LOC = "B6";  # Bank = 3, Signal name = IN3
+
+NET "diskkonumgiris[1]" LOC = "C5";  # Bank = 3, Signal name = IN2
+
+NET "diskkonumgiris[0]" LOC = "B7";  # Bank = 2, Signal name = IN1
+
+ 

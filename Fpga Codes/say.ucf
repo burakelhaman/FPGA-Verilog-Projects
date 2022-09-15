@@ -1,0 +1,9 @@
+NET "clk"  LOC = "B8" ; # CLK
+
+NET "yonbelirleme"  LOC = "N3"; #SW7
+
+NET "sayacdegeri[3]" LOC = "G1" ; # Bank = 3, Signal name = LD7
+NET "sayacdegeri[2]" LOC = "P4" ; # Bank = 2, Signal name = LD6
+NET "sayacdegeri[1]" LOC = "N4" ;  # Bank = 2, Signal name = LD5
+NET "sayacdegeri[0]" LOC = "N5" ;  # Bank = 2, Signal name = LD4
+
