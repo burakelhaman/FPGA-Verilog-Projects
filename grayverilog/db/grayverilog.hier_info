@@ -1,0 +1,29 @@
+|grayverilog
+x => count.OUTPUTSELECT
+x => count.OUTPUTSELECT
+x => count.OUTPUTSELECT
+x => count.OUTPUTSELECT
+clk => disp[0]~reg0.CLK
+clk => disp[1]~reg0.CLK
+clk => disp[2]~reg0.CLK
+clk => disp[3]~reg0.CLK
+clk => disp[4]~reg0.CLK
+clk => disp[5]~reg0.CLK
+clk => disp[6]~reg0.CLK
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+h => count.OUTPUTSELECT
+h => count.OUTPUTSELECT
+h => count.OUTPUTSELECT
+h => count.OUTPUTSELECT
+disp[0] <= disp[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+disp[1] <= disp[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+disp[2] <= disp[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+disp[3] <= disp[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+disp[4] <= disp[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+disp[5] <= disp[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+disp[6] <= disp[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
