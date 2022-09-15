@@ -1,0 +1,14 @@
+|verilogcode
+bcd[0] => Decoder0.IN3
+bcd[1] => Decoder0.IN2
+bcd[2] => Decoder0.IN1
+bcd[3] => Decoder0.IN0
+sevenseg[0] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+sevenseg[1] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+sevenseg[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+sevenseg[3] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+sevenseg[4] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+sevenseg[5] <= sevenseg.DB_MAX_OUTPUT_PORT_TYPE
+sevenseg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
